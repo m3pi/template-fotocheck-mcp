@@ -170,3 +170,28 @@ img {
     vertical-align: middle;
     border-style: none;
 }
+
+#contenedor{
+    /* width: 280px;
+    margin: 0 auto;
+    padding-top:150px; */
+    position: absolute;
+    margin-top: 40%;
+}
+
+#contenedor-imagen img {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+#contenedor-imagen img {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.barcode {
+    height: 1cm;
+}
